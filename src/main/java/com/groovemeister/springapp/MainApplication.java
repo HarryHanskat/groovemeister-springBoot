@@ -19,7 +19,6 @@ public class MainApplication {
 
 	private static final Logger log = LoggerFactory.getLogger(MainApplication.class);
 
-
 	public static void main(String[] args) {
 		SpringApplication.run(MainApplication.class, args);
 	}
@@ -33,6 +32,7 @@ public class MainApplication {
 		return args -> {
 			System.out.println("Running.....");
 
+			// Sample data created to populate the database for testing
 			PracticeItem p1 = new PracticeItem("MWFSSu",
 				"Test from Spring", 
 				"Spring Source", 
@@ -44,7 +44,6 @@ public class MainApplication {
 				"Spring Deux", 
 				"TopicSpring",
 				"TypeSpring", 15);
-
 
 			PracticeItem p3 = new PracticeItem("Daily",
 				"Thirdspring", 

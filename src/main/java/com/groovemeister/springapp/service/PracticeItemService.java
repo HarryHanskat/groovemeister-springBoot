@@ -11,7 +11,7 @@ import com.groovemeister.springapp.repository.PracticeItemRepository;
 
 @Service
 public class PracticeItemService {
-   
+    
     @Autowired
     private PracticeItemRepository practiceItemRepository;
 

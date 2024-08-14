@@ -19,7 +19,8 @@ import com.groovemeister.springapp.model.PracticeItem;
 import com.groovemeister.springapp.service.PracticeItemService;
 
 @RestController
-@RequestMapping("/practiceItems")
+// TODO: Use RESTful naming conventions
+@RequestMapping("/v0/practiceItems")
 public class PracticeItemController {
     
     @Autowired
